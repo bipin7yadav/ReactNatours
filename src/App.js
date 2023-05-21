@@ -1,3 +1,7 @@
+import './App.css';
+import './styles/global.css';
+import { Signin, Signup } from './components';
+import { Authentication } from './pages';
 
 import './App.css';
 import LandingPage from './components/LandingPage';
