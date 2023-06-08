@@ -1,7 +1,7 @@
 import './App.css';
 import './styles/global.css';
-import { Signin, Signup } from './components';
-import { Authentication } from './pages';
+import { Card, Signin, Signup } from './components';
+import { Authentication, List } from './pages';
 
 import './App.css';
 import LandingPage from './components/LandingPage';
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<LandingPage />}/>
+        <Route path="/" element={<List />}/>
       </Routes>
     </div>
   );

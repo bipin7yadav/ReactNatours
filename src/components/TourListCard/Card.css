@@ -1,0 +1,90 @@
+.tour-main-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 3rem;
+}
+
+.tour-card {
+  max-width: 370px;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  overflow: hidden;
+  padding-bottom: 1rem;
+}
+
+.tour-card__img-div {
+  width: 100%;
+  max-height: 20rem;
+  position: relative;
+}
+
+.tour-card__img-div img {
+  width: 100%;
+  height: auto;
+}
+
+.tour-card__img-div small {
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: yellowgreen;
+  padding: 5px 0.8rem;
+}
+
+.tour-card__img-div > h2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.7rem 0;
+  background-color: rgba(255, 255, 255, 0.744);
+  text-transform: uppercase;
+}
+
+.tour-card__text-content-div {
+    padding: 8px 1.5rem;
+}
+
+.tour-card__text-content-div p {
+    line-height: 1.5;
+}
+
+.tour-card__duration{
+    text-transform: uppercase;
+}
+
+.tour-card__description{
+    text-align: start;
+}
+
+.tour-card__tour-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items:start;
+    gap: 10px;
+    margin: 1.5rem 0;
+}
+
+.tour-card__tour-info div{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.tour-card__price-rating {
+    display: flex;
+    justify-items: start;
+    gap: 10px;
+}
+
+.tour-card__price-rating p{
+    text-align: left;
+    width: 100%;
+}
+
+.tour-card__info-btn{
+    /* margin: 0 1.5rem; */
+    /* margin: auto; */
+    /* width: ; */
+}
