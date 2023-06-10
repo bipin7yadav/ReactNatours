@@ -1,0 +1,102 @@
+.descriptionCard{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    background-color: #fff;
+    /* background-image: linear-gradient(to right, #7dd56f, #28b487); */
+    /* padding: 1rem; */
+
+}
+
+.description{
+    font-size: 20px;
+    letter-spacing: 150%;
+    word-spacing: 4px !important;
+}
+
+/* .card2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100vw;
+    max-width: 100vw;
+    border: 1px solid black;
+} */
+
+.imageSlider{
+    width:"100vw"
+}
+
+.reviewCard{
+    min-width:20rem;
+    height:19rem;
+    /* border:1px solid black; */
+    border-radius: 10px;
+    margin: 10px;
+    padding: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.booking-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    min-height: 30vh;
+    width: 100vw;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.main-booking{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    height: 100%;
+    width: 80%;
+}
+
+.imgBox{
+    /* border:1px solid black; */
+    height:90%;
+    width:25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    position: relative;
+}
+
+.textDetail{
+    height: 90%;
+    width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnBox{
+    height:90%;
+    width:25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookBtn{
+    border-radius: 20px;
+    color: #fff;
+    padding: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-style: none;
+}

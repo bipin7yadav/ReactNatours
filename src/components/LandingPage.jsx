@@ -11,7 +11,7 @@ function LandingPage() {
                     </div>
                     <div className='linkGroup'>
                         <Link className='link'>Home</Link>
-                        <Link className='link'>Login</Link>
+                        <Link className='link' to="/tourDetail">Login</Link>
                     </div>
                 </header>
                 <div className='center-center'>
