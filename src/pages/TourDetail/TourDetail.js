@@ -1,5 +1,6 @@
 import React from 'react'
 import SimpleImageSlider from "react-simple-image-slider";
+import { Header } from '../../components';
 import "./tourDetail.css"
 import { Rating } from 'react-simple-star-rating'
 import imageCover from "./../../utils/tours/tour-2-cover.jpg"
@@ -70,7 +71,10 @@ const images = [image1, image2, image3]
 function TourDetail() {
     return (
         <>
-            <div style={{ width: "100vw", boxSizing: "border-box", display: "flex", alignItems: "center", flexDirection: "column", }}>
+        <div>
+            <Header/>
+        </div>
+            <div style={{ width: "100vw", boxSizing: "border-box", display: "flex", alignItems: "center", flexDirection: "column",margin:"4rem 0" }}>
                 <div style={{ width: '100%', height: "70vh", display: "flex", justifyContent: "center", alignItems: "center", }}>
                     <img
                         style={{ objectFit: "cover", width: "90%", height: "100%", borderRadius: '10px', }}

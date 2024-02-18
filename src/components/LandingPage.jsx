@@ -10,7 +10,7 @@ function LandingPage() {
                         <h1>Natours</h1>
                     </div>
                     <div className='linkGroup'>
-                        <Link className='link'>Home</Link>
+                        <Link className='link' to="/tours">Home</Link>
                         <Link className='link' to="/tourDetail">Login</Link>
                     </div>
                 </header>
@@ -22,7 +22,10 @@ function LandingPage() {
                     }}>BECOME ONE WITH NATURE</span>
                     <div className='center-center' >
                         <button className='button-84'>
-                            Explore
+                        <Link className='link' to={'/tours'}>
+
+                            Explore  
+                        </Link>
                         </button>
                     </div>
 
